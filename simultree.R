@@ -1,4 +1,4 @@
-## This script was execute in sofware RStudio Version 1.1.463 
+## This script was execute in sofware RStudio Version 1.1.463 with Ubuntu 16.04.6, 64 bits 
 
 setwd("~/Desktop/Post_2") #set directory	
 library(ape) #load library		
