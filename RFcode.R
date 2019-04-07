@@ -1,4 +1,4 @@
-#This script was executed with Software RStudio Version 1.1.463
+#This script was executed with Software RStudio Version 1.1.463 in Ubuntu 16.04.6 (64bits)
 #It serves to calculate RF, among the trees, its descriptive (mean and standard deviation)
 #and graph the results. It must be executed in the directory where the Dirichlet 
 #or Fixed Frequency topologies are located.
