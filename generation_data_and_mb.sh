@@ -54,6 +54,12 @@ mv script_mb* data_nex/ #move bayes scripts to data_nex directory
 
 cd data_nex #change directory to data_nex
 
+
+#IMPORTANT: From here, the generation of nexus files and their respective executions in MrBayes (v3.2.6 x64) will be 
+#done only for the part of fixed frequencies. To do this using the Dirichlet criteria you must change the file that will
+#be pasted in the CAT function by the scripts that start with "dir" and make sure to change the name of the output file 
+#to they do not replace the previous ones. Also to run MrBayes you must change the names of files in loop.
+
 #for all files that start with matrizJC stick down the code in script_mbJC and create a new file
 for files in matrizJC*
 	do
