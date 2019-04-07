@@ -1,0 +1,7 @@
+begin mrbayes;
+lset nst=1;
+prset statefreqpr=Dirichlet(1,1,1,1);
+mcmc ngen=1000000 relburnin=yes burninfrac=0.25 nruns=2 nchains=2 printfreq=1000 samplefreq=1000 savebrlens=yes;
+sump;
+sumt; 
+END;
