@@ -1,8 +1,8 @@
-#This script was executed in Bash Ubuntu 16.04.6 and 64 bits
+#This script was executed in Bash Ubuntu 16.04.6 (64 bits)
 
 #!/bin/bash 
 
-Rscript simultree.R
+Rscript simultree.R #execute tree simulation R script
 
 # SIMULATE DATA USE JC MODEL
 for ((contador=1; contador<=3; contador++)); do	 #Define the counter to make 3 replicas of everything, start at 1 and finish when it reaches 3
